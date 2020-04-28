@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.headcont {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+header .name{
+    display: inline-flex;
+    justify-content: flex-start;
+    font-family: Futura;
+    font-size: 32px;
+}
+
+
+#col{
+    color: #182828;
+}
+
+#aca{
+    color: #c5bbc5;
+}
+
+header ul{
+    display: inline-flex;
+}
+header li{
+    color: #182828;
+    opacity: .8;
+    font-family: Futura;
+    font-size: 32px;
+    margin: 0 16px 0 0;
+}
