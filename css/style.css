@@ -2,6 +2,20 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-family: Oswald, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #182828;
+}
+
+h2{
+    font: 400 32px Futura, sans-serif;
+    color: #182828;
+}
+
+/* Header */
+
 header{
     display: fixed;
 }
@@ -44,4 +58,38 @@ header li{
     font-family: Futura;
     font-size: 32px;
     margin: 0 0 0 16px;
+}
+
+.latin{
+    background-color: #BBC5C5;
+}
+
+.latincontainer{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.latin img{
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+.latinwords{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.lat{
+    margin: 0 0 2rem 0;
+}
+
+#button{
+    background-color: #4f2f4f;
+    padding: 8px 0;
+    text-align: center;
+    color: #BBC5C5;
 }
