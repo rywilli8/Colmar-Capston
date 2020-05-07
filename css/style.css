@@ -72,8 +72,12 @@ header li{
    
 }
 
-.latin img{
+.latinimg{
     width: 60%;
+}
+
+.latin img{
+    width: 100%;
     height: auto;
     padding: 32px 24px;
 }
